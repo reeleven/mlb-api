@@ -1,2 +1,2 @@
-# mlb-espn-api
-ESPN api for MLB stats
+# mlb-api
+API for MLB stats
