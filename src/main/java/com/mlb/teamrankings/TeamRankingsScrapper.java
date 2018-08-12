@@ -1,5 +1,6 @@
 package com.mlb.teamrankings;
 
+import com.mlb.interfaces.Scrapper;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 

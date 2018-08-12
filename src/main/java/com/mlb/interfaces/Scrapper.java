@@ -1,4 +1,4 @@
-package com.mlb.teamrankings;
+package com.mlb.interfaces;
 
 import org.jsoup.*;
 import org.jsoup.nodes.Document;
