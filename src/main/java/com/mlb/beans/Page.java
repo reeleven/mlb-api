@@ -2,12 +2,24 @@ package com.mlb.beans;
 
 import java.io.Serializable;
 
-public class Page implements Serializable {
+/**
+ * Page Bean
+ */
 
+public class Page implements Serializable {
+    private long id;
     private String url;
 
     public Page() {
 
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getUrl() {
@@ -17,4 +29,5 @@ public class Page implements Serializable {
     public void setUrl(String url) {
         this.url = url;
     }
+
 }
