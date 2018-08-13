@@ -1,2 +1,2 @@
 # mlb-api
-API for MLB teamStats
+API for MLB Teams Stats
