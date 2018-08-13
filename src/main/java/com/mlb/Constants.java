@@ -1,7 +1,7 @@
-package com.mlb.teamrankings;
+package com.mlb;
 
 /*
- * Constants for TeamRankings
+ * Constants for Page
  */
 public class Constants {
     /*
@@ -39,7 +39,7 @@ public class Constants {
     public static final String WASHINGTON_NATIONALS = "washington-nationals";
 
     /*
-     * TeamRankings base url
+     * Page base url
      */
     public static final String TEAM_RANKINGS_BASE_URL = "https://www.teamrankings.com/";
 

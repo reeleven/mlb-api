@@ -1,6 +1,6 @@
 package com.mlb.interfaces;
 
-import org.jsoup.*;
+import com.mlb.beans.Page;
 import org.jsoup.nodes.Document;
 
 public interface Scrapper {
@@ -8,9 +8,9 @@ public interface Scrapper {
     /**
      * Get Document from a given URL
      *
-     * @param url
+     * @param page
      * @return Document
      */
-    public Document getPageFromURL(String url) throws Exception;
+    Document getPageFromURL(Page page) throws Exception;
 
 }
